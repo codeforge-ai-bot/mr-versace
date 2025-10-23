@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Versace - Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo" aria-label="Versace Logo">
+        <span>VERSACE</span>
+      </div>
+      <nav class="nav" aria-label="Main Navigation">
+        <a href="#home">Home</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Open menu" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>Timeless luxury. Modern craft.</h1>
+      <p class="subtitle">Versace brings couture-inspired design to everyday living with bold lines, rich materials, and iconic details.</p>
+      <a href="#collections" class="btn btn-primary">Shop the Collection</a>
+    </div>
+  </section>
+
+  <section id="collections" class="collections container">
+    <h2>Collections</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1523385223591-df63a1b3f6c1?q=80&w=1200&auto=format&fit=crop" alt="Gold-accent fashion accessory" />
+        <h3>Gold Accents</h3>
+        <p>Statement pieces with radiant detailing.</p>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1520975922284-9a161f9a7d0d?q=80&w=1200&auto=format&fit=crop" alt="Luxurious leather bag" />
+        <h3>Leather & Silks</h3>
+        <p>Timeless materials refined for everyday luxury.</p>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd96d9d3d1?q=80&w=1200&auto=format&fit=crop" alt="Silhouette dress" />
+        <h3>Silhouettes</h3>
+        <p>Iconic cuts that flatter every shape.</p>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1516828641606-8b4b1d3a1b11?q=80&w=1200&auto=format&fit=crop" alt="Statement jewelry" />
+        <h3>Statement Jewelry</h3>
+        <p>Bold pieces that define the look.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h2>About Versace</h2>
+    <p>Versace is a heritage brand known for fearless design, opulent materials, and meticulous craftsmanship. This demo site showcases a clean, modern landing page using vanilla HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p>Have questions? Get in touch.</p>
+    <form>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required />
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit" class="btn btn-secondary">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="site-footer container">
+    <p>&copy; 2025 Versace Demo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
